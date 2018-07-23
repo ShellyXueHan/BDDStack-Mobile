@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Range iOS Test Results</title><link rel="icon" href="http://reportbuilder.rajatthareja.com/rb.ico">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+<link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.6/css/report.builder.min.css" rel="stylesheet">
+</head><body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script><header class="brown lighten-5">
+<div class="row brown lighten-1">
+<div class="col m6 hide-on-small-only">
+<h5 class="truncate white-text tooltipped" data-tooltip="Range iOS Test Results">Range iOS Test Results</h5>
+</div><div class="col m6 s12 brown lighten-1">
+<ul class="tabs brown lighten-1 row" style="overflow-x: hidden">
+<li class="tab col s3">
+<a class="brown lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+</li>
+<li class="tab col s3">
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+</li>
+<li class="tab col s3">
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+</li>
+<li class="tab col s3">
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+</li>
+</ul>
+</div>
+</div>
+</header>
+<div id="g0f0s0" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Home page with list of RUPs (0.238s)</h5>
+features/Spec_3_Main_Page.feature:8<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I land on Home page (0.000s)</li>
+<li class="collection-item step passed">
+<b>When </b> I see the table (0.146s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see cells in the table with different status (0.092s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s1" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>View detail of existing RUP (0.741s)</h5>
+features/Spec_3_Main_Page.feature:14<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I land on Home page (0.000s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on View button for an agreement (0.741s)</li>
+<li class="collection-item step undefined">
+<b>Then </b> I should see the details in View (Create) page (0.000s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s2" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Logout of app (8.055s)</h5>
+features/Spec_3_Main_Page.feature:20<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I go back to Home page (3.931s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on logout button (1.911s)</li>
+<li class="collection-item step passed">
+<b>And </b> I confirm logout (1.457s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should be in Login page again (0.757s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s0" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><div class="chip"><i class="material-icons rotate-45">label</i>@restart</div><h5>Create a new RUP from agreement I am assigned (1m 0.58s)</h5>
+features/Spec_2_Create_RUP.feature:10
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I am on Home page (0.000s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on create button (0.677s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I am at the Agreement Selection page (44.812s)</li>
+<li class="collection-item step passed">
+<b>And </b> I pick an agreement (1.737s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should be in the Create page (7.552s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s1" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Check auto-populated fields in Agreement (2.722s)</h5>
+features/Spec_2_Create_RUP.feature:17<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I am on Create page (2.081s)</li>
+<li class="collection-item step passed">
+<b>When </b> I have the Agreement selected (0.642s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see all the existing fields (0.000s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s2" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Edit Range info in -Basic Information- (5.866s)</h5>
+features/Spec_2_Create_RUP.feature:22<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I go to "Basic Info" section (1.254s)</li>
+<li class="collection-item step passed">
+<b>When </b> I enter Range Name and Alter Business Name (4.114s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see the updates (0.498s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s3" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Check dates within range of Agreement in -Basic Information- (17.309s)</h5>
+features/Spec_2_Create_RUP.feature:27<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I am on Create page (2.247s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on Start-date of Plan (3.004s)</li>
+<li class="collection-item step passed">
+<b>And </b> I pick a date before Agreement Start-date (2.084s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see a date as the Agreement Start-date (2.293s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on End-date of Plan (3.121s)</li>
+<li class="collection-item step passed">
+<b>And </b> I pick a date after Agreement End-date (2.256s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see a date as the Agreement End-date (2.303s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s4" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Check create a new -Pasture- (12.567s)</h5>
+features/Spec_2_Create_RUP.feature:36<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I go to "Pasture" section (1.368s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on add new pasture (2.680s)</li>
+<li class="collection-item step passed">
+<b>And </b> I name the new pasture with "p1" and confirm (7.744s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see the pastures (0.774s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s5" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Check enter information to -Pasture- (12.361s)</h5>
+features/Spec_2_Create_RUP.feature:42<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I go to "Pasture" section (1.386s)</li>
+<li class="collection-item step passed">
+<b>When </b> I enter into each field (10.975s)<br/>| element_id | value | 
+<br/>| PastureAUMField | 30 | 
+<br/>| PastureDeductionField | 15 | 
+<br/>| PastureGraceDaysField | 5 | 
+</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see data populated (0.000s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s6" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Check -Pasture- management (15.055s)</h5>
+features/Spec_2_Create_RUP.feature:51<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I go to "Pasture" section (1.732s)</li>
+<li class="collection-item step passed">
+<b>When </b> I copy a pasture (4.611s)</li>
+<li class="collection-item step passed">
+<b>And </b> I name the new pasture with "p2" and confirm (6.082s)</li>
+<li class="collection-item step passed">
+<b>And </b> I go to "Pasture" section (1.694s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see the pastures (0.936s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f1s7" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Submit RUP (6.986s)</h5>
+features/Spec_2_Create_RUP.feature:58<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I complete all infomation entry (1.169s)</li>
+<li class="collection-item step passed">
+<b>When </b> I submit RUP and confirm (3.851s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see submitted RUP in Home page (1.966s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f2s0" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><div class="chip"><i class="material-icons rotate-45">label</i>@restart</div><h5>Login with IDIR account and Sync (13.028s)</h5>
+features/Spec_1_Login_and_Sync.feature:8
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I open the app for the first time (0.236s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on login button (5.624s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should be redirected to web IDIR Login page (0.095s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f2s1" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Login with IDIR account (20.332s)</h5>
+features/Spec_1_Login_and_Sync.feature:13<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I am at the Login website (5.004s)</li>
+<li class="collection-item step passed">
+<b>When </b> I enter my IDIR account (0.210s)</li>
+<li class="collection-item step passed">
+<b>And </b> I click on IDIR login button (0.097s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should be directed to native Home page (15.021s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f2s2" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>Sync data (0.872s)</h5>
+features/Spec_1_Login_and_Sync.feature:19<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> Syncing popup window showing (0.000s)</li>
+<li class="collection-item step passed">
+<b>When </b> I close the popup window (0.585s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I am directed to the Home page with Synced status and Internet (0.288s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f2s3" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@iOS_Test_2</div><h5>First time in Home page with empty data (0.996s)</h5>
+features/Spec_1_Login_and_Sync.feature:24<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I land on Home page (0.000s)</li>
+<li class="collection-item step passed">
+<b>When </b> I see create button and user inital (0.177s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see empty list of RUPs (0.820s)</li>
+</ul></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f0s2').modal();$('#g0f0s3').modal();$('#g0f1s0').modal();$('#g0f1s1').modal();$('#g0f1s2').modal();$('#g0f1s3').modal();$('#g0f1s4').modal();$('#g0f1s5').modal();$('#g0f1s6').modal();$('#g0f1s7').modal();$('#g0f1s8').modal();$('#g0f2s0').modal();$('#g0f2s1').modal();$('#g0f2s2').modal();$('#g0f2s3').modal();$('#g0f2s4').modal();});
+</script>
+<main class="brown lighten-5">
+<div class="row"><div id="overview" class="col s12 brown lighten-5">
+<div class="row">
+<div class="col m4 s12">
+<canvas id="featuresDoughnut" width="400" height="400"></canvas>
+<table id="metaDataFeatures" class="bordered">
+<tbody></tbody>
+</table>
+</div><div class="col m4 s12">
+<canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+<table id="metaDataScenarios" class="bordered">
+<tbody></tbody>
+</table>
+</div><div class="col m4 s12">
+<table id="metaData" class="bordered">
+<tbody>
+<tr><th>Total Time</th><td>2m 57.71s</td></tr><tr>
+<th>Browser</th>
+<td>browser</td>
+</tr><tr>
+<th>Environment</th>
+<td>environment</td>
+</tr><tr>
+<th>MoreInfo</th>
+<td>more info</td>
+</tr></tbody>
+</table>
+</div>
+</div></div><div id="features" class="col s12 brown lighten-5 white-text">
+<ul class="featureList collapsible popout" data-collapsible="expandable">
+<li class="feature incomplete">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
+<i class="material-icons">featured_play_list</i>
+<b>Feature</b>&nbsp;Test Home page&nbsp;(9.034s)
+</div><div class="collapsible-body brown lighten-4">
+<ul class="collection scenarioList"><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s0">
+<b>Scenario</b> Home page with list of RUPs&nbsp;(0.238s)
+</a>
+</li><li class="collection-item scenario undefined">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s1">
+<b>Scenario</b> View detail of existing RUP&nbsp;(0.741s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s2">
+<b>Scenario</b> Logout of app&nbsp;(8.055s)
+</a>
+</li></ul>
+</div>
+</li><li class="feature working">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
+<i class="material-icons">featured_play_list</i>
+<b>Feature</b>&nbsp;Test RUP Creat page&nbsp;(2m 13.44s)
+</div><div class="collapsible-body brown lighten-4">
+<ul class="collection scenarioList"><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s0">
+<b>Scenario</b> Create a new RUP from agreement I am assigned&nbsp;(1m 0.58s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s1">
+<b>Scenario</b> Check auto-populated fields in Agreement&nbsp;(2.722s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s2">
+<b>Scenario</b> Edit Range info in -Basic Information-&nbsp;(5.866s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s3">
+<b>Scenario</b> Check dates within range of Agreement in -Basic Information-&nbsp;(17.309s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s4">
+<b>Scenario</b> Check create a new -Pasture-&nbsp;(12.567s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s5">
+<b>Scenario</b> Check enter information to -Pasture-&nbsp;(12.361s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s6">
+<b>Scenario</b> Check -Pasture- management&nbsp;(15.055s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s7">
+<b>Scenario</b> Submit RUP&nbsp;(6.986s)
+</a>
+</li></ul>
+</div>
+</li><li class="feature working">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
+<i class="material-icons">featured_play_list</i>
+<b>Feature</b>&nbsp;Test login with IDIR and syncing&nbsp;(35.229s)
+</div><div class="collapsible-body brown lighten-4">
+<ul class="collection scenarioList"><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s0">
+<b>Scenario</b> Login with IDIR account and Sync&nbsp;(13.028s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s1">
+<b>Scenario</b> Login with IDIR account&nbsp;(20.332s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s2">
+<b>Scenario</b> Sync data&nbsp;(0.872s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s3">
+<b>Scenario</b> First time in Home page with empty data&nbsp;(0.996s)
+</a>
+</li></ul>
+</div>
+</li>
+</ul></div><div id="summary" class="col s12 brown lighten-5">
+<table id="summaryTable" class="bordered brown lighten-1 white-text" width="100%">
+<thead>
+<tr>
+<th class="hide-on-small-only">Feature</th>
+<th>Scenario</th>
+<th class="hide">Tags</th>
+<th>Status</th>
+<th class="hide-on-small-only">Error</th>
+</tr>
+</thead>
+<tbody><tr class="passed">
+<td class="hide-on-small-only">
+Test Home page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s0">Home page with list of RUPs</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="undefined">
+<td class="hide-on-small-only">
+Test Home page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s1">View detail of existing RUP</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+undefined
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test Home page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s2">Logout of app</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test RUP Creat page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s0">Create a new RUP from agreement I am assigned</a>
+</td><td class="hide">
+@iOS_Test_2. @restart. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test RUP Creat page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s1">Check auto-populated fields in Agreement</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test RUP Creat page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s2">Edit Range info in -Basic Information-</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test RUP Creat page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s3">Check dates within range of Agreement in -Basic Information-</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test RUP Creat page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s4">Check create a new -Pasture-</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test RUP Creat page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s5">Check enter information to -Pasture-</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test RUP Creat page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s6">Check -Pasture- management</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test RUP Creat page
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f1s7">Submit RUP</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test login with IDIR and syncing
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f2s0">Login with IDIR account and Sync</a>
+</td><td class="hide">
+@iOS_Test_2. @restart. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test login with IDIR and syncing
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f2s1">Login with IDIR account</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test login with IDIR and syncing
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f2s2">Sync data</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Test login with IDIR and syncing
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f2s3">First time in Home page with empty data</a>
+</td><td class="hide">
+@iOS_Test_2. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+</tbody>
+</table></div><div id="errors" class="col s12 brown lighten-5">
+<ul class="errorList collapsible popout" data-collapsible="expandable"></ul></div>
+</div>
+</main><footer class="page-footer brown lighten-4">
+<div class="footer-copyright brown lighten-1">
+<div class="container">
+Happy Reporting!
+<a class="white-text text-lighten-4 right" href="http://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+</div>
+</div>
+</footer><script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.6/js/report.builder.min.js"></script></body>
+</html>
