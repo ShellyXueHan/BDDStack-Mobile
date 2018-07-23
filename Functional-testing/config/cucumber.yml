@@ -1,0 +1,13 @@
+# Execute cucumber will be using default setup
+
+# Reporting options:
+html_report: --format progress --format html --out=features_report.html
+json_report: --format json --out results/jsonResult.json
+
+# Specify test suit with tagging:
+iOS: --tags @iOS_Test
+android: --tags @android_Test
+
+# Include JSON reports to generate webview reports:
+advanced: --profile json_report --profile iOS
+default: --profile iOS
