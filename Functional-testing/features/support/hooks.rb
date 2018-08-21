@@ -38,10 +38,6 @@ After do |s|
   end
 end
 
-# Issue with screenshot_as:
-# encoded_img = @driver.screenshot_as(:base64)
-# embed("data:image/png;base64,#{encoded_img}",'image/png')
-
 at_exit do
   ReportBuilder.configure do |config|
     config.json_path = 'results/'
