@@ -29,14 +29,16 @@ For iOS:
 - Xcode command line tool (that fit the Xcode version), verify target devices with:
 `xcrun instruments -s devices`
 - iOS app and device support:
-`brew install ideviceinstaller`
-`npm install -g ios-deploy`
-`npm install -g deviceconsole`
+```console
+brew install ideviceinstaller
+npm install -g ios-deploy
+npm install -g deviceconsole
+```
 - Apple developer account to enable functional testing
 
 
 For Andoird:
-- [Andriod SDK from](https://developer.android.com/sdk/index.html), set paths and verify with:
+- Get [Andriod SDK](https://developer.android.com/sdk/index.html), set paths and verify with:
 `adb version`
 
 
